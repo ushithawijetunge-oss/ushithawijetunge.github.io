@@ -129,16 +129,23 @@
     <a class="nav-link text-on-surface-variant font-body-md hover:text-secondary transition-colors px-1 py-1" href="#projects">Projects</a>
     <a class="nav-link text-secondary font-bold font-body-md px-1 py-1" href="#contact">Contact</a>
   </nav>
-  <a href="#contact" class="hidden md:inline-flex items-center gap-2 bg-primary text-on-primary px-5 py-2 rounded-[4px] font-label-caps text-label-caps hover:bg-secondary transition-all">
-    LET'S TALK
-  </a>
+  <div class="flex items-center gap-4">
+    <a href="#contact" class="hidden md:inline-flex items-center gap-2 bg-primary text-on-primary px-5 py-2 rounded-[4px] font-label-caps text-label-caps hover:bg-secondary transition-all">
+      LET'S TALK
+    </a>
+    <div class="w-10 h-10 rounded-full bg-surface-container-highest border border-outline-variant overflow-hidden shrink-0">
+      <img class="w-full h-full object-cover" src="profile.jpg" alt="Ushitha Wijetunge"/>
+    </div>
+  </div>
 </header>
 
 <!-- Navigation Drawer (Mobile) -->
 <aside class="h-full w-80 fixed left-0 top-0 z-[60] bg-surface-container-low shadow-sm transform -translate-x-full transition-all duration-300 ease-in-out" id="drawer">
   <div class="flex flex-col p-4 gap-2">
     <div class="flex flex-col mb-8 px-4 pt-6">
-      <div class="w-14 h-14 rounded-full bg-primary text-on-primary flex items-center justify-center font-display-lg-mobile font-bold text-xl mb-4">UW</div>
+      <div class="w-16 h-16 rounded-full overflow-hidden border border-outline-variant mb-4">
+        <img class="w-full h-full object-cover" src="profile.jpg" alt="Ushitha Wijetunge"/>
+      </div>
       <h2 class="font-headline-md text-headline-md text-primary">Ushitha Wijetunge</h2>
       <p class="font-body-md text-on-surface-variant">Finance &amp; Data Specialist</p>
       <span class="font-label-caps text-label-caps mt-1 text-secondary">AUCKLAND, NZ</span>
@@ -168,14 +175,14 @@
 
   <!-- HERO / HOME -->
   <section id="home" class="pt-32 pb-20 px-margin-mobile md:px-margin-desktop max-w-max-width mx-auto">
-    <div class="flex flex-col md:flex-row md:items-end justify-between gap-10 border-b border-outline-variant pb-10">
-      <div class="max-w-2xl">
-        <span class="font-label-caps text-label-caps text-secondary mb-3 block">FINANCE &amp; OPERATIONS · DATA-DRIVEN</span>
+    <div class="flex flex-col md:flex-row md:items-center justify-between gap-12 border-b border-outline-variant pb-10">
+      <div class="max-w-2xl order-2 md:order-1">
+        <span class="font-label-caps text-label-caps text-secondary mb-3 block">FINANCE &amp; OPERATIONS · DATA-DRIVEN · C-SUITE ADVISORY</span>
         <h1 class="font-display-lg text-display-lg text-primary leading-tight">
           Precision in finance.<br/>Fluency in data.
         </h1>
         <p class="font-body-lg text-body-lg text-on-surface-variant mt-6 max-w-xl">
-          I'm Ushitha Wijetunge — a results-oriented finance and operations professional working across management accounting, business analysis and project management in the apparel and manufacturing sectors. I turn Power BI, SQL and Excel VBA into decisions, not just dashboards.
+          I'm Ushitha Wijetunge — a results-oriented finance and operations professional working across management accounting, business analysis and project management in the apparel and manufacturing sectors. I've supported C-suite executives on strategic initiatives, and turn Power BI, SQL and Excel VBA into decisions, not just dashboards.
         </p>
         <div class="flex flex-wrap gap-4 mt-8">
           <a href="#experience" class="bg-primary text-on-primary px-6 py-3 rounded-[4px] font-label-caps text-label-caps hover:bg-secondary transition-all active:scale-95">
@@ -185,23 +192,31 @@
             GET IN TOUCH
           </a>
         </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10">
+          <div class="border border-outline-variant bg-surface-container-lowest p-4">
+            <span class="font-data-point text-data-point text-secondary block">$300M</span>
+            <span class="font-label-caps text-label-caps text-on-surface-variant">ACCOUNT MANAGED</span>
+          </div>
+          <div class="border border-outline-variant bg-surface-container-lowest p-4">
+            <span class="font-data-point text-data-point text-secondary block">C-SUITE</span>
+            <span class="font-label-caps text-label-caps text-on-surface-variant">EXEC ADVISORY</span>
+          </div>
+          <div class="border border-outline-variant bg-surface-container-lowest p-4">
+            <span class="font-data-point text-data-point text-secondary block">CIMA/CPA</span>
+            <span class="font-label-caps text-label-caps text-on-surface-variant">DUAL QUALIFIED</span>
+          </div>
+          <div class="border border-outline-variant bg-surface-container-lowest p-4">
+            <span class="font-data-point text-data-point text-secondary block">VBA/BI</span>
+            <span class="font-label-caps text-label-caps text-on-surface-variant">AUTOMATION TOOLS</span>
+          </div>
+        </div>
       </div>
-      <div class="grid grid-cols-2 gap-4 w-full md:w-72 shrink-0">
-        <div class="border border-outline-variant bg-surface-container-lowest p-4">
-          <span class="font-data-point text-data-point text-secondary block">$300M</span>
-          <span class="font-label-caps text-label-caps text-on-surface-variant">ACCOUNT MANAGED</span>
-        </div>
-        <div class="border border-outline-variant bg-surface-container-lowest p-4">
-          <span class="font-data-point text-data-point text-secondary block">9+ YRS</span>
-          <span class="font-label-caps text-label-caps text-on-surface-variant">FINANCE &amp; OPS</span>
-        </div>
-        <div class="border border-outline-variant bg-surface-container-lowest p-4">
-          <span class="font-data-point text-data-point text-secondary block">CIMA</span>
-          <span class="font-label-caps text-label-caps text-on-surface-variant">CGMA QUALIFIED</span>
-        </div>
-        <div class="border border-outline-variant bg-surface-container-lowest p-4">
-          <span class="font-data-point text-data-point text-secondary block">VBA/BI</span>
-          <span class="font-label-caps text-label-caps text-on-surface-variant">AUTOMATION TOOLS</span>
+      <div class="order-1 md:order-2 shrink-0 w-56 md:w-72">
+        <div class="relative border border-outline-variant bg-primary-container overflow-hidden aspect-[4/5]">
+          <img class="w-full h-full object-cover" src="profile.jpg" alt="Portrait of Ushitha Wijetunge"/>
+          <div class="absolute bottom-0 left-0 right-0 bg-primary/90 px-4 py-2">
+            <span class="font-label-caps text-label-caps text-secondary-fixed block">UW</span>
+          </div>
         </div>
       </div>
     </div>
@@ -486,12 +501,16 @@
         <span class="font-label-caps text-label-caps text-secondary mb-2 block">CREDENTIALS</span>
         <h2 class="font-headline-md text-2xl font-bold text-primary mb-6">Professional Qualifications</h2>
         <div class="flex items-center gap-4 border border-outline-variant bg-surface-container-lowest p-6">
-          <span class="font-data-point text-data-point text-secondary">CIMA</span>
+          <span class="font-data-point text-data-point text-secondary">CIMA UK</span>
           <p class="font-body-md text-body-md text-on-surface-variant">Member, Chartered Institute of Management Accountants</p>
         </div>
         <div class="flex items-center gap-4 border border-outline-variant border-t-0 bg-surface-container-lowest p-6">
           <span class="font-data-point text-data-point text-secondary">CGMA</span>
           <p class="font-body-md text-body-md text-on-surface-variant">Certified Global Management Accountant</p>
+        </div>
+        <div class="flex items-center gap-4 border border-outline-variant border-t-0 bg-surface-container-lowest p-6">
+          <span class="font-data-point text-data-point text-secondary">CPA</span>
+          <p class="font-body-md text-body-md text-on-surface-variant">Member, CPA Australia</p>
         </div>
       </div>
     </div>
